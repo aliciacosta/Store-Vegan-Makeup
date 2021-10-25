@@ -1,0 +1,114 @@
+nav a{
+  color: white;
+  text-decoration: none;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 10px;
+  font-size: 22px;
+  line-height: 1;
+  transition: 1s all;
+}
+nav li{
+  display: inline-table;
+  line-height: 1;
+  background-color: #3e3042;
+  border-radius: 10px;
+  padding: 2% 2%;
+}
+a{
+  font-weight: 300;
+  line-height:1;
+  text-decoration: none;
+}
+
+nav{
+  width:60%;
+  position: absolute;
+  top: 100px;
+  left: 40%;
+}
+
+.logoloja{
+  width: 30%;
+  margin-top:50px;
+  margin-left:10%;
+}
+
+.produtos{
+  width: 940px;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 1.5% 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #3e3042;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    transition: 1s all;
+    
+}
+.produtos h3 {
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+img{
+  width: 100%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.iprimeira{
+  width: 86%;
+}
+
+.ipenultima{
+  width: 93%;
+}
+.preco{
+  font-size: 20px;
+  font-weight: bold;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+h2{
+  font-size: 35px;
+  text-align: center;
+  color: #6e894d;
+  font-family: cursive;
+  margin-bottom: 2%;
+}
+
+nav a:hover{
+  font-size:26px;
+  text-decoration: underline;
+  transform: scale(1.1);
+}
+
+.produtos li:hover{
+  border-color: #6e894d;
+  transform: scale(1.1);
+}
+
+.produtos li:hover h3{
+  font-size: 17px;
+}
+footer {
+    text-align: center;
+    background: url("bg.jpg");
+    padding: 40px 0;
+}
+
+.copyright{
+    color: black;
+    font-size: 13px;
+    margin: 20px 0 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.logocopy{
+  width: 20%;
+}
